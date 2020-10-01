@@ -63,14 +63,14 @@ class AddProfitProductAttribute implements DataPatchInterface, PatchRevertableIn
                 'searchable' => false,
                 'filterable' => false,
                 'comparable' => false,
-                'visible_on_front' => true,
+                'visible_on_front' => false,
                 'unique' => false,
                 'apply_to' => 'simple,grouped,bundle,configurable,virtual',
                 'group' => 'General',
                 'used_in_product_listing' => true,
                 'is_used_in_grid' => true,
-                'is_visible_in_grid' => false,
-                'is_filterable_in_grid' => false,
+                'is_visible_in_grid' => true,
+                'is_filterable_in_grid' => true,
                 'option' => array('values' => array(""))
             ]
         );

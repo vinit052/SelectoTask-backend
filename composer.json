@@ -1,0 +1,32 @@
+{
+    "name": "selecto/taskbackend",
+    "description": "This is test description created by me.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "gaurvinit.2000@gmail.com",
+            "name": "vinit gaur"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "repositories": [
+        {
+          "type": "composer",
+          "url": "http://packages.magento.com/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/vinit052/selecto-task-backend"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Selecto\\TaskBackend\\": ""
+        }
+    }
+}
